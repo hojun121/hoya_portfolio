@@ -5,10 +5,10 @@ export const MindData = {
 };
 
 export const StackData = {
-  title: 'Skill & Tools',
+  title: 'Work Experience',
   stack: {
-    FrontEnd: ['html', 'css', 'javascript', 'react'],
-    Design: ['figma', 'ps', 'ai'],
-    Cooperation: ['github', 'notion', 'discord'],
+    연극작품: ['html', 'css', 'javascript', 'react'],
+    매체: ['figma', 'ps', 'ai'],
+    개인활동: ['github', 'notion', 'discord'],
   },
 };

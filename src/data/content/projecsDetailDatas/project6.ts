@@ -1,74 +1,66 @@
 export const project6 = {
-  name: 'portfolio',
-  pointcolor: 'before:bg-[#373737]',
-  title: '포트폴리오 사이트',
+  name: 'poke',
+  pointcolor: 'before:bg-[#ED1B24]',
+  title: '포켓몬 도감',
   subtext:
-    '기획 부터 디자인까지 제가 직접 작업했습니다.\n노션, 템플릿 소스 등을 이용할 수 있었지만 저만의 포트폴리오 사이트를 가지고 싶어 제작했습니다.\n주요 색상인 black & white로 전체적으로 심플함을 줬고, UX와 내용 구성을 신경쓰며 진행한 포트폴리오 입니다.\n',
-  data: '2023.08 - 진행 중',
+    '포켓몬 API를 알게되어 작업을 진행하게 되었습니다.\nReact Query는 물론 무한 스크롤링, 다크모드, axios를 공부하기 위해 제작하게 되었습니다.\n\n현재는 완성도 높은 프로젝트를 구현하기 위해 꾸준히 개선하고 있습니다.',
+  data: '2023.09 - 진행 중',
   team: '1인 (솔로)',
-  tag: ['솔로', '반응형', '포트폴리오', '사이드'],
-  imgurl: 'https://raw.githubusercontent.com/jieun419/jieun_portfolio/main/src/assets/images/thumbnail_portfolio.webp',
+  tag: ['솔로', '토이'],
+  imgurl: 'https://raw.githubusercontent.com/jieun419/jieun_portfolio/main/src/assets/images/thumbnail_pokedex.webp',
   detailimginfo: [
     {
-      imgurl:
-        'https://raw.githubusercontent.com/jieun419/jieun_portfolio/main/src/assets/images/project_portfolio1.webp',
+      imgurl: 'https://raw.githubusercontent.com/jieun419/jieun_portfolio/main/src/assets/images/project_poke1.webp',
       subject: '메인 화면',
     },
     {
-      imgurl:
-        'https://raw.githubusercontent.com/jieun419/jieun_portfolio/main/src/assets/images/project_portfolio2.webp',
-      subject: '나에 대한 소개 화면',
+      imgurl: 'https://raw.githubusercontent.com/jieun419/jieun_portfolio/main/src/assets/images/project_poke2.webp',
+      subject: '포켓몬 상세 정보',
     },
     {
-      imgurl:
-        'https://raw.githubusercontent.com/jieun419/jieun_portfolio/main/src/assets/images/project_portfolio3.webp',
-      subject: '이력 및 학력 화면',
+      imgurl: 'https://raw.githubusercontent.com/jieun419/jieun_portfolio/main/src/assets/images/project_poke3.webp',
+      subject: '메인 화면 - 다크모드',
     },
     {
-      imgurl:
-        'https://raw.githubusercontent.com/jieun419/jieun_portfolio/main/src/assets/images/project_portfolio4.webp',
-      subject: '프로젝트 리스트 화면',
+      imgurl: 'https://raw.githubusercontent.com/jieun419/jieun_portfolio/main/src/assets/images/project_poke4.webp',
+      subject: '포켓몬 상세 정보 - 다크모드',
     },
     {
-      imgurl:
-        'https://raw.githubusercontent.com/jieun419/jieun_portfolio/main/src/assets/images/project_portfolio5.webp',
-      subject: '프로젝트 상세 내용 모달 창',
+      imgurl: 'https://raw.githubusercontent.com/jieun419/jieun_portfolio/main/src/assets/images/project_poke5.webp',
+      subject: '검색 페이지',
     },
     {
-      imgurl:
-        'https://raw.githubusercontent.com/jieun419/jieun_portfolio/main/src/assets/images/project_portfolio6.webp',
-      subject: '팀원 리뷰 상세 내용 모달 창',
+      imgurl: 'https://raw.githubusercontent.com/jieun419/jieun_portfolio/main/src/assets/images/project_poke6.webp',
+      subject: '검색 페이지 - 검색 키워드 없을 경우',
     },
   ],
-  giturl: 'https://github.com/jieun419/jieun_portfolio',
-  depoloyurl: 'https://jieun-portfolio.vercel.app/',
+  giturl: 'https://github.com/jieun419/poke-dex',
+  depoloyurl: 'https://je-poke-dex.vercel.app/',
   blogurl: [
     {
-      title: '모바일 환경에서 100vh 이슈',
-      url: 'https://velog.io/@crg1050/포트폴리오-모바일-환경에서-100vh-이슈',
+      title: '다크모드 구현 하기 (react, reduxToolkit, styled components)',
+      url: 'https://velog.io/@crg1050/다크모드-구현-하기-react-reduxToolkit-styled-components',
     },
     {
-      title: '나의 포트폴리오 만들기 회고',
-      url: 'https://velog.io/@crg1050/나의-포트폴리오-만들기',
+      title: '컴포넌트 분리하기',
+      url: 'https://velog.io/@crg1050/포켓몬-도감-컴포넌트-분리하기',
     },
     {
-      title: '포트폴리오 개선 하기 회고',
-      url: 'https://velog.io/@crg1050/포트폴리오-개선하기',
+      title: 'useEffect에서 불필요한 호출이 발생되는 이슈',
+      url: 'https://velog.io/@crg1050/포켓몬-도감-불필요한-데이터-불러오는-이슈',
     },
     {
-      title: 'Tooltip 추가하기',
-      url: 'https://velog.io/@crg1050/포트폴리오-Tooltip-추가하기',
-    },
-    {
-      title: '포트폴리오 고도화 작업 회고',
-      url: 'https://velog.io/@crg1050/포트폴리오-interview-형식-tab기능-추가하기',
+      title: 'URLSearchParams를 활용해 검색 페이지 구현',
+      url: 'https://velog.io/@crg1050/포켓몬-도감-URLSearchParams메서드를-활용해-검색-페이지-구현',
     },
   ],
   featinfo: [
-    '패드백을 수용하고, 지속적으로 개선 중',
-    '메인 화면, 마지막 화면에서 github, velog 바로가기',
-    '소개 - 커리어 - 프로젝트 - 교육 순으로 표시',
-    '프로젝트 "자세히보기" 버큰 클릭 시 상세한 정보 표시 (github, 배포 링크, 관련 블로그 링크)',
+    '포켓몬API를 활용해 포켓몬 데이터 불러오기',
+    '스크롤할 경우 20개씩 포켓몬 데이터 무한 스크롤링',
+    '특정 포켓몬 클릭 시 포켓몬 정보 모달창 표시',
+    'Redux Toolkit, localStorage를 활용해 다크모드 지원',
+    'URLSearchParams메서드를 활용해 포켓몬 검색',
+    '한/영 지원 (검색시 영문만 가능)',
   ],
   tools: [
     {
@@ -92,53 +84,69 @@ export const project6 = {
         'Redux Toolkit은 Redux 상태 관리 라이브러리를 사용하기 위한 보조 도구입니다. Redux보다 코드를 간결하게 작성할 수 있게 도와주며, 전역으로 상태를 관리할 수 있습니다.',
     },
     {
-      title: 'Tailwind CSS',
+      title: 'React Query',
       detail:
-        'Tailwind는 CSS 프레임워크로, 클래스 기반 스타일링을 합니다. 일관된 디자인을 단시간에 쉽게 구현할 수 있습니다.',
+        'React Query는 React 애플리케이션에서 데이터 가져오기, 관리 및 캐싱을 단순하게 만들어주는 JavaScript 라이브러리입니다. 서버로부터 데이터를 비동기적으로 가져오고 관리하기 위한 다양한 도구와 패턴을 제공하며, API 요청을 처리하고 캐싱하여 성능을 최적화할 수 있습니다.',
     },
     {
       title: 'Styled Components',
       detail:
-        'Styled Components는 JavaScript 코드 내에서 CSS를 작성할 수 있게 해주는 라이브러리입니다. 컴포넌트와 스타일을 함께 정의해 컴포넌트 별로 스타일을 관리하고 재사용할 수 있습니다. 또한 tailwind 사용시 클래스가 길어져 코드가 지저분해 지는 단점을 보완해 줍니다.',
+        'Styled Components는 JavaScript 코드 내에서 CSS를 작성할 수 있게 해주는 라이브러리입니다. 컴포넌트와 스타일을 함께 정의해 컴포넌트 별로 스타일을 관리하고 재사용할 수 있습니다.',
     },
   ],
   parts: [
     {
-      title: '포트폴리오 제작 의독를 파악하고 기획 및 구체화 작업',
+      title: '프로젝트 기획 및 디자인 구성',
       detailList: [
-        `커리어 코칭 등을 통해 수용한 피드백을 기반으로 자기 소개, 경력, 프로젝트, 교육 등 중요도 순으로 **간결하면서도 효과적인 순서로 배치**`,
-        `포트폴리오를 보는 사용자들에게 원하는 정보를 쉽게 전달할 수 있도록 고려`,
-        `현재 지속적으로 피드백을 받고 개선하면서 **고도화 진행 중**`,
+        `\`Figma\`를 활용해 직관적으로 원하는 정보만 보일 수 있도록 구조 작업`,
+        `현재에도 지속적으로 프로젝트를 구체화 진행 중`,
       ],
     },
     {
-      title: '개성을 살려 UI / UX 디자인 (PC, Mobile)',
+      title: 'Lazy, Suspense 통해 코드 스플리팅 작업 및 뷰포트에 보이지 않는 이미지 로딩 지연',
       detailList: [
-        `저만의 개성을 살려 디자인하는 동시에 여러 사용자들이 편안하게 느낄 수 있는 디자인 추구하며 작업`,
-        `무채색인 black & white를 활용해 심플하면서도 차분한 느낌을 주었으며, **\`Tooltip\`, 익숙한 배치 등 UX 측면을 고려**하며 사용자 경험을 개선하기 위해 노력 중`,
+        `초기 로딩 최적화를 위해 페이지 이동 구간에 \`Lazy\`, \`Suspese\`를 통해 코드 스플리팅 작업 진행`,
+        `이미지 태그에 \`loading="lazy\` 속성을 추가해 뷰포트에 보이지 않는 **이미지 로딩을 지연**시켜 초기 로딩 속도 향상`,
       ],
     },
     {
-      title: '웹 표준 / 접근성 고려 및 인터랙션 작업',
+      title: 'Redux Toolkit, localStorage를 통해 다크모드 테마 제공',
       detailList: [
-        `직접 디자인한 웹 페이지를 마크업하여 웹 표준을 준수하고 웹 접근성을 고려하며 진행`,
-        `메인 화면에서 수용한 피드백을 반영해 애니메이션을 간단하게 구현할 수 있도록 **\`framer-motion\` 라이브러리 활용해 사용자의 시선을 효과적으로 이끌어냄**`,
+        `\`Redux Toolkit\`로 테마에 대한 상태를 저장하여 **전역으로 테마 상태 관리**`,
+        `\`localStorage\`를 활용해 유저 **브라우저에 테마 타입 저장**하여 새로고침해도 테마가 유지되므로써 사용자 경험을 향상`,
+      ],
+    },
+    {
+      title: '라이브러리 사용 없이 scrollHeight, scrollTop, clientHeight 요소 활용해 무한 스크롤 구현',
+      detailList: [
+        `\`scrollHeight\`, \`scrollTop\`, \`clientHeight\` 요소를 활용해 뷰포트 바닥에 닿을 경우 요청한 데이터만큼만 불러오도록 무한 스크롤 구현`,
+        `초기 로딩 시 모든 데이터를 불러오지 않고 사용자가 스크롤 할 때 필요한 만큼의 데이터를 불러와 성능을 향상시켜 사용자 경험 개선`,
+        `이후 React Query에서 제공하는 \`useInfiniteQuery\` 쿼리를 사용해 구현 예정`,
+      ],
+    },
+    {
+      title: '원하는 포켓몬을 쉽게 찾기 위해 URLSearchParams 활용해 검색 페이지 및 검색 기능 구현',
+      detailList: [
+        `\`input action\` 속성을 통해 페이지가 이동하면서 URL 파라미터에 검색 키워드 저장`,
+        `\`URLSearchParams\` 메서드를 활용해 검색 키워드를 추출 후 React Query의 useQuery와 Redux Toolkit을 활용해 \`filtering\`된 검색 결과를 표시`,
+        `원하는 검색 결과가 없을 경우의 조건문을 통하여 \`Nothing\` 컴포넌트 보이도록해 사용자 경험을 향상`,
       ],
     },
   ],
   trouble: [
     {
-      title: '초기 화면이 시선 집중되지 않았던 문제로 framer-motion 라이브러리 활용',
+      title: '포켓몬 데이터 리스트를 업데이트 하는 useEffect에서 초기 렌더링시 불필요한 호출이 발생하는 이슈',
       detailList: [
-        `**[문제점]** 초반 피드백을 받았을 때 심플하고 눈에 잘 들어오지 않는다는 피드백을 받았습니다.`,
-        `**[해결]** 피드백을 수용하고 애니메이션 효과를 간단하게 구현할 수 있는 \`framer-motion\`라이브러리를 활용해 매끄러운 애니메이션 효과를 구현하고 배경 이미지를 추가했습니다. **사용자의 시선을 효과적으로 이끌어냈고, 긍정적인 피드백**을 받을 수 있었습니다.`,
+        `**[문제점]** \`useEffect\`를 활용해 초기 로딩 시 포켓몬 데이터 리스트를 업로드하는 과정에서 3번의 호출이 감지 되었습니다. 무한 스크롤로 인해 뷰포트가 바닥을 감지하여 이루어지는 이슈로 생각해 스켈레톤을 추가했으나, 동일한 문제가 발생했습니다.`,
+        `**[해결]** \`console.log\`를 활용해 초기 렌더링 시 포켓몬 데이터 리스트가 빈 배열로 들어오는 시점에서 **useEffect가 2번 호출되는 이슈**를 확인하게 되었습니다. useEffect에 포켓몬 데이터 리스트가 있을 경우에만 실행하도록 조건문을 추가해 불필요한 렌더링을 막을 수 있었습니다.`,
+        `**[회고]** useEffect를 사용할 경우 **초기 로딩에 대한 처리를 신중하게 고려**하는 것이 중요하다 생각하게 되었습니다.`,
       ],
     },
     {
-      title: '받았던 피드백으로 포트폴리오 지속적으로 개선 작업',
+      title: '방대한 포켓몬 데이터로 인한 성능 최적화 이슈',
       detailList: [
-        `**[문제점]** 지속적으로 개선시키던 중, 여러 프로젝트를 소개하고 있기에 사용자가 쉽게 찾기 어려울 것 같아 고민하게 되었습니다.`,
-        `**[해결]** 이를 해결하기 위해 \`Tab Menu\`를 추가하여 원하는 프로젝트 리스트 바로 찾을 수 있도록 수정하고, [About Me] 섹션을 \`Interview\` 형식으로 변경하여 저에 대한 정보를 보다 쉽게 전달할 수 있도록 사용자 경험을 개선하고자 했습니다.`,
+        `**[문제점]** 포켓몬 데이터가 방대함으로 인해 최적화에 대한 고민이 많았습니다.`,
+        `**[해결]** 무한스크롤링을 도입해 메모리 소모를 최소화, \`React.lazy\`,\`Suspense\`를 활용해 초기 로딩 시의 성능을 향상, img태그에 \`loading="lazy"\` 속성을 추가해 이미지의 로딩 최적화했습니다.`,
       ],
     },
   ],

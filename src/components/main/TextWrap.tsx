@@ -42,13 +42,13 @@ function TextWrap() {
           animate={{ ...OPACITY_1, y: WINDOW_HEIGHT }}
           transition={ANI_TRANSITION}
         >
-          멋진 여성 CEO <StTxt>이은진</StTxt>입니다.
+          배우 <StTxt>이은진</StTxt>입니다.
           <BgText>
             <AnimationP
               initial={{ y: 150 }}
               animate={{ ...Y_0 }}
               transition={{ ...ANI_TRANSITION, delay: 1 }}
-            >Front-End</AnimationP>
+            >Actress</AnimationP>
           </BgText>
         </MainTitle>
       </IntroAnimationDiv>
@@ -58,14 +58,14 @@ function TextWrap() {
         animate={{ ...OPACITY_1, ...Y_P10 }}
         transition={{ ...ANI_TRANSITION, delay: 3 }}
       >
-        사용자를 생각하는 <BoldTxt>역지사지</BoldTxt> 마인드,
+        나를 움직이거나 <BoldTxt>다른 사람의 마음을</BoldTxt> 움직이는 술처럼,
       </MainSubText>
       <MainSubText
         initial={{ ...OPACITY_0, ...Y_0 }}
         animate={{ ...OPACITY_1, ...Y_P10 }}
         transition={{ ...ANI_TRANSITION, delay: 3.5 }}
       >
-        포기하지 않고 <BoldTxt>책임감</BoldTxt>있게 일하는 개발자입니다.
+        <BoldTxt>사람의 마음을 움직이는 </BoldTxt>배우입니다.
       </MainSubText>
     </TxtBox >
   )

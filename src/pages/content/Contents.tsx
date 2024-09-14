@@ -31,9 +31,9 @@ export const RightWrap = tw.section`
 function Contents() {
 
   const navTabs = [
-    useScrollToTarget('Career'),
-    useScrollToTarget('Project'),
-    useScrollToTarget('Education'),
+    useScrollToTarget('연극'),
+    useScrollToTarget('매체'),
+    useScrollToTarget('개인활동'),
   ]
 
   return (

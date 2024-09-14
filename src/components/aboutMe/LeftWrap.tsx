@@ -51,7 +51,7 @@ const LeftWrap = () => {
           ))}
         </TagTxtWrap>
       </FlexBox>
-      <ShowReviewBtn handelImgChange={handelImgChange}>팀원 리뷰 보기</ShowReviewBtn>
+      <ShowReviewBtn handelImgChange={handelImgChange}>이은진, 그녀에 대해 알아보자!</ShowReviewBtn>
     </LeftContainer>
   );
 };

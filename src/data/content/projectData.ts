@@ -4,31 +4,21 @@ import { project4 } from './projecsDetailDatas/project4';
 import { project5 } from './projecsDetailDatas/project5';
 import { project6 } from './projecsDetailDatas/project6';
 import { project7 } from './projecsDetailDatas/project7';
-import { project8 } from './projecsDetailDatas/project8';
 
 export const projectData = [
   {
-    name: project8.name,
-    type: 'team',
-    title: project8.title,
-    subject: '우주를 테마로 한 회사 소개 사이트입니다.',
-    tag: project8.tag,
-    depoloyurl: project8.depoloyurl,
-  },
-  {
     name: project7.name,
-    type: 'single',
+    type: 'team',
     title: project7.title,
-    subject: '포켓몬 API를 활용해 만들어진 포켓몬 도감입니다.',
+    subject: '우주를 테마로 한 회사 소개 사이트입니다.',
     tag: project7.tag,
-    imgurl: project7.imgurl,
-    giturl: project7.giturl,
+    depoloyurl: project7.depoloyurl,
   },
   {
     name: project6.name,
     type: 'single',
     title: project6.title,
-    subject: '저만의 포트폴리오를 만들기 위해 제작했습니다.',
+    subject: '포켓몬 API를 활용해 만들어진 포켓몬 도감입니다.',
     tag: project6.tag,
     imgurl: project6.imgurl,
     giturl: project6.giturl,

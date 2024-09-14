@@ -120,7 +120,7 @@ function AboutMe() {
             <LeftWrap />
             <InterviewWrap />
             <Stacks>
-              <Tit>Skill & Tools</Tit>
+              <Tit>Work Experience</Tit>
               <StackWrap>
                 {
                   //* key = 제목, stacks = 기술 스택
